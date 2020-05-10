@@ -1,0 +1,7 @@
+CREATE SCHEMA `veterinaria`;
+	CREATE TABLE `veterinaria`.`perros` (
+        `id` INT NOT NULL AUTO_INCREMENT,
+        `nombre` VARCHAR (45) NULL DEFAULT NULL,
+        `raza` VARCHAR (45) NULL DEFAULT NULL,
+        `color` VARCHAR (45) NULL DEFAULT NULL,
+         PRIMARY KEY (`id`));
